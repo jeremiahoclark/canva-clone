@@ -1,4 +1,3 @@
-Below is a “from-code-to-prod” roadmap that shows what must change, why it matters, and one pragmatic way to get it done when you move Davronov-Alimardon/canva-clone to Firebase.
 
 1. Know What You’re Migrating
 Layer	Current tech (repo)	Firebase-friendly substitute	Why it must change
@@ -17,7 +16,7 @@ Serverless APIs	Hono handlers in /src/app/api	Cloud Functions for Firebase (Node
 Hosting	Vercel	Firebase App Hosting (GA) – first-class for Next 15 
 firebase.blog
 
-2. Upgrade & Refactor Locally
+1. Upgrade & Refactor Locally
 Branch → firebase-migration
 
 Upgrade Next.js & React
